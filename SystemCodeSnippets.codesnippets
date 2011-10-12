@@ -159,7 +159,8 @@
         <key>IDECodeSnippetCompletionPrefix</key>
         <string>forin</string>
         <key>IDECodeSnippetContents</key>
-        <string>for (&lt;#type *object#&gt; in &lt;#collection#&gt;) {
+        <string>for (&lt;#type *object#&gt; in &lt;#collection#&gt;) 
+{
     &lt;#statements#&gt;
 }</string>
         <key>IDECodeSnippetIdentifier</key>
