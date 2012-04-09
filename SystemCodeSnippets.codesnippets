@@ -996,15 +996,16 @@ while (index != NSNotFound)
         <key>IDECodeSnippetCompletionPrefix</key>
         <string>ifelse</string>
         <key>IDECodeSnippetContents</key>
-        <string>if (&lt;#condition#&gt;)
+        <string>if (&lt;#condition#&gt;) 
 {
-  &lt;#statements-if-true#&gt;
-}
-else
+  &lt;#statements#&gt;
+} 
+else 
 {
-  &lt;#statements-if-false#&gt;
+  &lt;#statements#&gt;
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
+
+	<key>IDECodeSnippetIdentifier</key>
         <string>324A989C-B8B7-4974-8F12-D4B42F2059BA</string>
         <key>IDECodeSnippetLanguage</key>
         <string>Xcode.SourceCodeLanguage.C</string>
@@ -1012,6 +1013,56 @@ else
         <string>Used for executing code only when a certain condition is true, or different code if the certain condition is true.</string>
         <key>IDECodeSnippetTitle</key>
         <string>If-Else Statement</string>
+        <key>IDECodeSnippetCompletionScopes</key>
+        <array>
+            <string>CodeBlock</string>
+        </array>
+    </dict>
+    
+    <dict>
+        <key>IDECodeSnippetVersion</key>
+        <integer>1</integer>
+        <key>IDECodeSnippetCompletionPrefix</key>
+        <string>else</string>
+        <key>IDECodeSnippetContents</key>
+        <string>else 
+        {
+              &lt;#statements#&gt;
+        }</string>
+    
+        <key>IDECodeSnippetIdentifier</key>
+        <string>E4B300B5-E0EA-4E46-9963-6E9B2111E579</string>
+        <key>IDECodeSnippetLanguage</key>
+        <string>Xcode.SourceCodeLanguage.C</string>
+        <key>IDECodeSnippetSummary</key>
+        <string>Used for executing code when a certain condition is false, only when directly following an if statement.</string>
+        <key>IDECodeSnippetTitle</key>
+        <string>Else Statement</string>
+        <key>IDECodeSnippetCompletionScopes</key>
+        <array>
+            <string>CodeBlock</string>
+        </array>
+    </dict>
+    
+    <dict>
+        <key>IDECodeSnippetVersion</key>
+        <integer>1</integer>
+        <key>IDECodeSnippetCompletionPrefix</key>
+        <string>elseif</string>
+        <key>IDECodeSnippetContents</key>
+        <string>else if (&lt;#condition#&gt;) 
+        {
+          &lt;#statements#&gt;
+        }</string>
+    
+        <key>IDECodeSnippetIdentifier</key>
+        <string>E4B300B5-F0FA-3E36-1063-6E9B2111E579</string>
+        <key>IDECodeSnippetLanguage</key>
+        <string>Xcode.SourceCodeLanguage.C</string>
+        <key>IDECodeSnippetSummary</key>
+        <string>Used for executing code when a certain condition is true, only when directly following an if or else if statement.</string>
+        <key>IDECodeSnippetTitle</key>
+        <string>Else-If Statement</string>
         <key>IDECodeSnippetCompletionScopes</key>
         <array>
             <string>CodeBlock</string>
