@@ -86,7 +86,7 @@
 {
     self = [super initWithFrame:frame];
     if (self)
-	{
+    {
         &lt;#initializations#&gt;
     }
     return self;
@@ -181,10 +181,12 @@
         <string>- (id)init
 {
     self = [super init];
+
     if (self)
-	{
+    {
         &lt;#initializations#&gt;
     }
+
     return self;
 }</string>
         <key>IDECodeSnippetIdentifier</key>
@@ -338,7 +340,7 @@
 {
     self = [super initWithCoder:coder];
     if (self)
-	{
+    {
         &lt;#initializations#&gt;
     }
     return self;
@@ -448,41 +450,6 @@ dispatch_once(&amp;onceToken, ^{
         <key>IDECodeSnippetVersion</key>
         <integer>1</integer>
         <key>IDECodeSnippetCompletionPrefix</key>
-    	<string></string>
-    	<key>IDECodeSnippetContents</key>
-    	<string>- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    static NSString *cellIdentifier = @"&lt;#MyCell#&gt;";
-
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
-    if (cell == nil)
-	{
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier] autorelease];
-    }
-
-    &lt;#customize cell before it is shown#&gt;
-
-    return cell;
-}</string>
-    	<key>IDECodeSnippetIdentifier</key>
-    	<string>64B6C913-A425-4A65-8326-5C91239D2DD0</string>
-    	<key>IDECodeSnippetLanguage</key>
-    	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-    	<key>IDECodeSnippetPlatformFamily</key>
-    	<string>iphoneos</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for reusing UITableView cells to improve performance.</string>
-    	<key>IDECodeSnippetTitle</key>
-    	<string>Reusable UITableView Cell</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>ClassImplementation</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
         <string>inlineBlock</string>
         <key>IDECodeSnippetContents</key>
         <string>&lt;#Return Type#&gt;(^&lt;#Block Name#&gt;)(&lt;#Parameter Types#&gt;) = ^(&lt;#Parameters#&gt;) {
@@ -507,7 +474,7 @@ dispatch_once(&amp;onceToken, ^{
     	<key>IDECodeSnippetCompletionPrefix</key>
     	<string>dispatch_after</string>
     	<key>IDECodeSnippetContents</key>
-    	<string>double delayInSeconds = 2.0;
+        <string>int64_t delayInSeconds = 2.0;
 dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
 dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
     &lt;#code to be executed on the main queue after delay#&gt;
@@ -534,11 +501,11 @@ dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
     	<string>- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
     if (context == &lt;#context#&gt;)
-	{
+    {
         &lt;#code to be executed upon observing keypath#&gt;
     }
-	else
-	{
+    else
+    {
         [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
     }
 }</string>
@@ -772,34 +739,6 @@ if (fetchedObjects == nil)
         <key>IDECodeSnippetCompletionPrefix</key>
     	<string></string>
         <key>IDECodeSnippetContents</key>
-        <string>- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    &lt;#NextViewController#&gt; *nextViewController = [[&lt;#NextViewController#&gt; alloc] initWithNibName:@"&lt;#Nib name#&gt;" bundle:nil];
-    // Configure the new view controller.
-
-    [self.navigationController pushViewController:nextViewController animated:YES];
-    [nextViewController release];
-}</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>21A15572-94A4-4169-B4F9-0300A6C9EE01</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetPlatformFamily</key>
-        <string>iphoneos</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>This allows you to navigate to another view controller on table view selection</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>UITableViewController delegate: Navigation on selection</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>ClassImplementation</string>
-        </array>
-    </dict>        
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-    	<string></string>
-        <key>IDECodeSnippetContents</key>
         <string>NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
 NSEntityDescription *entity = [NSEntityDescription entityForName:@"&lt;#Entity name#&gt;"
 inManagedObjectContext:&lt;#context#&gt;];
@@ -996,16 +935,15 @@ while (index != NSNotFound)
         <key>IDECodeSnippetCompletionPrefix</key>
         <string>ifelse</string>
         <key>IDECodeSnippetContents</key>
-        <string>if (&lt;#condition#&gt;) 
+        <string>if (&lt;#condition#&gt;)
 {
-  &lt;#statements#&gt;
-} 
-else 
+  &lt;#statements-if-true#&gt;
+}
+else
 {
-  &lt;#statements#&gt;
+  &lt;#statements-if-false#&gt;
 }</string>
-
-	<key>IDECodeSnippetIdentifier</key>
+        <key>IDECodeSnippetIdentifier</key>
         <string>324A989C-B8B7-4974-8F12-D4B42F2059BA</string>
         <key>IDECodeSnippetLanguage</key>
         <string>Xcode.SourceCodeLanguage.C</string>
@@ -1013,56 +951,6 @@ else
         <string>Used for executing code only when a certain condition is true, or different code if the certain condition is true.</string>
         <key>IDECodeSnippetTitle</key>
         <string>If-Else Statement</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-    </dict>
-    
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>else</string>
-        <key>IDECodeSnippetContents</key>
-        <string>else 
-        {
-              &lt;#statements#&gt;
-        }</string>
-    
-        <key>IDECodeSnippetIdentifier</key>
-        <string>E4B300B5-E0EA-4E46-9963-6E9B2111E579</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for executing code when a certain condition is false, only when directly following an if statement.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Else Statement</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-    </dict>
-    
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>elseif</string>
-        <key>IDECodeSnippetContents</key>
-        <string>else if (&lt;#condition#&gt;) 
-        {
-          &lt;#statements#&gt;
-        }</string>
-    
-        <key>IDECodeSnippetIdentifier</key>
-        <string>E4B300B5-F0FA-3E36-1063-6E9B2111E579</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for executing code when a certain condition is true, only when directly following an if or else if statement.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Else-If Statement</string>
         <key>IDECodeSnippetCompletionScopes</key>
         <array>
             <string>CodeBlock</string>
@@ -1078,11 +966,15 @@ else
         <string>switch (&lt;#expression#&gt;)
 {
   case &lt;#constant#&gt;:
+  {
     &lt;#statements#&gt;
     break;
+  }
 
   default:
+  {
     break;
+  }
 }</string>
         <key>IDECodeSnippetIdentifier</key>
         <string>DA95C97A-3F49-4A24-AFF7-8ACE73B0C6FA</string>
@@ -1257,7 +1149,7 @@ public:
         <string>templateclass</string>
         <key>IDECodeSnippetContents</key>
         <string>template &lt;&lt;#template parameters#&gt;&gt;
-class &lt;#class name#&gt;
+            class &lt;#class name#&gt;
 {
   &lt;#instance variables#&gt;
 
@@ -1285,7 +1177,7 @@ public:
         <string>templatefunction</string>
         <key>IDECodeSnippetContents</key>
         <string>template &lt;&lt;#template parameters#&gt;&gt;
-&lt;#return type#&gt; &lt;#function name#&gt;(&lt;#function parameters#&gt;)
+            &lt;#return type#&gt; &lt;#function name#&gt;(&lt;#function parameters#&gt;)
 {
   &lt;#statements#&gt;
 }</string>
