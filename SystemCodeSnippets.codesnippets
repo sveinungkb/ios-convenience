@@ -181,12 +181,10 @@
         <string>- (id)init
 {
     self = [super init];
-
     if (self)
     {
         &lt;#initializations#&gt;
     }
-
     return self;
 }</string>
         <key>IDECodeSnippetIdentifier</key>
@@ -474,7 +472,7 @@ dispatch_once(&amp;onceToken, ^{
     	<key>IDECodeSnippetCompletionPrefix</key>
     	<string>dispatch_after</string>
     	<key>IDECodeSnippetContents</key>
-        <string>int64_t delayInSeconds = 2.0;
+    	<string>int64_t delayInSeconds = 2.0;
 dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
 dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
     &lt;#code to be executed on the main queue after delay#&gt;
@@ -970,11 +968,8 @@ else
     &lt;#statements#&gt;
     break;
   }
-
   default:
-  {
     break;
-  }
 }</string>
         <key>IDECodeSnippetIdentifier</key>
         <string>DA95C97A-3F49-4A24-AFF7-8ACE73B0C6FA</string>
@@ -1023,8 +1018,7 @@ else
         <string>do
 {
   &lt;#statements#&gt;
-}
-while (&lt;#condition#&gt;);</string>
+} while (&lt;#condition#&gt;);</string>
         <key>IDECodeSnippetIdentifier</key>
         <string>1FA9842C-8454-42F7-9119-5818388EDB58</string>
         <key>IDECodeSnippetLanguage</key>
@@ -1149,7 +1143,7 @@ public:
         <string>templateclass</string>
         <key>IDECodeSnippetContents</key>
         <string>template &lt;&lt;#template parameters#&gt;&gt;
-            class &lt;#class name#&gt;
+class &lt;#class name#&gt;
 {
   &lt;#instance variables#&gt;
 
@@ -1177,7 +1171,7 @@ public:
         <string>templatefunction</string>
         <key>IDECodeSnippetContents</key>
         <string>template &lt;&lt;#template parameters#&gt;&gt;
-            &lt;#return type#&gt; &lt;#function name#&gt;(&lt;#function parameters#&gt;)
+&lt;#return type#&gt; &lt;#function name#&gt;(&lt;#function parameters#&gt;)
 {
   &lt;#statements#&gt;
 }</string>
