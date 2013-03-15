@@ -32,4 +32,12 @@ Then:
 
 * Start Xcode
 
+Or:
+
+* Run the script [here][gisturl] whenever you update Xcode, and you’ll always have the latest version of this snippet fix.
+
+[gisturl]: https://gist.github.com/ZevEisenberg/5167026
+
+Then:
+
 * Type wonderful `if`, `else`, `switch` and `for` statements all day long!
