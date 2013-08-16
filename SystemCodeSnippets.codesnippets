@@ -1,88 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <array>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>@protocol</string>
-        <key>IDECodeSnippetContents</key>
-        <string>@protocol &lt;#protocol name#&gt; &lt;NSObject&gt;
+<array>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>@protocol</string>
+		<key>IDECodeSnippetContents</key>
+		<string>@protocol &lt;#protocol name#&gt; &lt;NSObject&gt;
 
 &lt;#methods#&gt;
 
 @end</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>986936BB-E0FE-4E7E-9A79-E3C77528204E</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for defining a new Objective-C protocol.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Objective-C Protocol Definition</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>TopLevel</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>@finally</string>
-        <key>IDECodeSnippetContents</key>
-        <string>@finally
+		<key>IDECodeSnippetIdentifier</key>
+		<string>986936BB-E0FE-4E7E-9A79-E3C77528204E</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for defining a new Objective-C protocol.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Objective-C Protocol Definition</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>TopLevel</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>@finally</string>
+		<key>IDECodeSnippetContents</key>
+		<string>@finally
 {
     &lt;#handler#&gt;
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>E591D0EA-F048-4CA4-B0C1-7794A0118F79</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used when there is code that needs to do cleanup after an exception.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Objective-C Finally Block</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-        <key>IDECodeSnippetRelativePriority</key>
-        <integer>1</integer>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>@catch</string>
-        <key>IDECodeSnippetContents</key>
-        <string>@catch (&lt;#exception#&gt;)
+		<key>IDECodeSnippetIdentifier</key>
+		<string>E591D0EA-F048-4CA4-B0C1-7794A0118F79</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used when there is code that needs to do cleanup after an exception.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Objective-C Finally Block</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>CodeBlock</string>
+		</array>
+		<key>IDECodeSnippetRelativePriority</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>@catch</string>
+		<key>IDECodeSnippetContents</key>
+		<string>@catch (&lt;#exception#&gt;)
 {
     &lt;#handler#&gt;
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>07AA1DCF-F43C-41FE-84FB-C703DC7F2941</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>This will catch an Objective-C exception.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Objective-C Catch Block</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-        <key>IDECodeSnippetRelativePriority</key>
-        <integer>1</integer>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>initWithFrame</string>
-        <key>IDECodeSnippetContents</key>
-        <string>- (id)initWithFrame:(NSRect)frame
+		<key>IDECodeSnippetIdentifier</key>
+		<string>07AA1DCF-F43C-41FE-84FB-C703DC7F2941</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>This will catch an Objective-C exception.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Objective-C Catch Block</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>CodeBlock</string>
+		</array>
+		<key>IDECodeSnippetRelativePriority</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>initWithFrame</string>
+		<key>IDECodeSnippetContents</key>
+		<string>- (id)initWithFrame:(NSRect)frame
 {
     self = [super initWithFrame:frame];
     if (self)
@@ -91,94 +91,94 @@
     }
     return self;
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>807AC058-0340-4358-A2AB-246576154DC9</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for overriding an NSView's initWithFrame method for setup.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Objective-C NSView initWithFrame Method</string>
-        <key>IDECodeSnippetPlatformFamily</key>
-        <string>macosx</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>ClassImplementation</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>@interface</string>
-        <key>IDECodeSnippetContents</key>
-        <string>@interface &lt;# class name #&gt; : &lt;# superclass #&gt;
+		<key>IDECodeSnippetIdentifier</key>
+		<string>807AC058-0340-4358-A2AB-246576154DC9</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for overriding an NSView&apos;s initWithFrame method for setup.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Objective-C NSView initWithFrame Method</string>
+		<key>IDECodeSnippetPlatformFamily</key>
+		<string>macosx</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>ClassImplementation</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>@interface</string>
+		<key>IDECodeSnippetContents</key>
+		<string>@interface &lt;#class name#&gt; : &lt;#superclass#&gt;
 
 @end</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>594E2E10-E61A-453E-9011-8B99A7DDBB9D</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for defining a new Objective-C class.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Objective-C Class Declaration</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>TopLevel</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>@interface-extension</string>
-        <key>IDECodeSnippetContents</key>
-        <string>@interface &lt;# class name #&gt; ()
+		<key>IDECodeSnippetIdentifier</key>
+		<string>594E2E10-E61A-453E-9011-8B99A7DDBB9D</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for defining a new Objective-C class.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Objective-C Class Declaration</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>TopLevel</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>@interface-extension</string>
+		<key>IDECodeSnippetContents</key>
+		<string>@interface &lt;#class name#&gt; ()
 
 @end</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>DE1BFE54-6A56-4424-9DDC-C4ACBBC649B2</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for defining an Objective-C class extension.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Objective-C Class Extension</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>TopLevel</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>@interface-category</string>
-        <key>IDECodeSnippetContents</key>
-        <string>@interface &lt;# class name #&gt; (&lt;# category name #&gt;)
+		<key>IDECodeSnippetIdentifier</key>
+		<string>DE1BFE54-6A56-4424-9DDC-C4ACBBC649B2</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for defining an Objective-C class extension.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Objective-C Class Extension</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>TopLevel</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>@interface-category</string>
+		<key>IDECodeSnippetContents</key>
+		<string>@interface &lt;#class name#&gt; (&lt;#category name#&gt;)
 
 @end</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>4E041FB2-AB0D-4249-9658-141289641F6B</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for defining an Objective-C category.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Objective-C Category</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>TopLevel</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>init</string>
-        <key>IDECodeSnippetContents</key>
-        <string>- (id)init
+		<key>IDECodeSnippetIdentifier</key>
+		<string>4E041FB2-AB0D-4249-9658-141289641F6B</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for defining an Objective-C category.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Objective-C Category</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>TopLevel</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>init</string>
+		<key>IDECodeSnippetContents</key>
+		<string>- (id)init
 {
     self = [super init];
     if (self)
@@ -187,97 +187,97 @@
     }
     return self;
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>B25FEFF4-89B8-4266-85F4-1DC0CB2B6769</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for overriding the init method of an Objective-C object to perform setup.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Objective-C init Method</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>ClassImplementation</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>forin</string>
-        <key>IDECodeSnippetContents</key>
-        <string>for (&lt;#type *object#&gt; in &lt;#collection#&gt;)
+		<key>IDECodeSnippetIdentifier</key>
+		<string>B25FEFF4-89B8-4266-85F4-1DC0CB2B6769</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for overriding the init method of an Objective-C object to perform setup.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Objective-C init Method</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>ClassImplementation</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>forin</string>
+		<key>IDECodeSnippetContents</key>
+		<string>for (&lt;#type *object#&gt; in &lt;#collection#&gt;)
 {
     &lt;#statements#&gt;
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>60CB781B-02C5-4C32-B205-44EEF8209DBC</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for enumerating over a collection.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Objective-C Fast Enumeration</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>@implementation</string>
-        <key>IDECodeSnippetContents</key>
-        <string>@implementation &lt;#class#&gt;
+		<key>IDECodeSnippetIdentifier</key>
+		<string>60CB781B-02C5-4C32-B205-44EEF8209DBC</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for enumerating over a collection.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Objective-C Fast Enumeration</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>@implementation</string>
+		<key>IDECodeSnippetContents</key>
+		<string>@implementation &lt;#class#&gt;
 
 &lt;#methods#&gt;
 
 @end</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>7FA1A6B1-CB87-458C-891A-A742AE0A371D</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for implementing a new Objective-C class.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Objective-C Class Implementation</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>TopLevel</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>@implementation-category</string>
-        <key>IDECodeSnippetContents</key>
-        <string>@implementation &lt;#class#&gt; (&lt;# category name #&gt;)
+		<key>IDECodeSnippetIdentifier</key>
+		<string>7FA1A6B1-CB87-458C-891A-A742AE0A371D</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for implementing a new Objective-C class.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Objective-C Class Implementation</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>TopLevel</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>@implementation-category</string>
+		<key>IDECodeSnippetContents</key>
+		<string>@implementation &lt;#class#&gt; (&lt;#category name#&gt;)
 
 &lt;#methods#&gt;
 
 @end</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>F5C83E8B-21F2-4269-BF2B-15F9AFAA3848</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for implementing a new Objective-C category.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Objective-C Category Implementation</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>TopLevel</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>@try</string>
-        <key>IDECodeSnippetContents</key>
-        <string>@try
+		<key>IDECodeSnippetIdentifier</key>
+		<string>F5C83E8B-21F2-4269-BF2B-15F9AFAA3848</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for implementing a new Objective-C category.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Objective-C Category Implementation</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>TopLevel</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>@try</string>
+		<key>IDECodeSnippetContents</key>
+		<string>@try
 {
     &lt;#statements#&gt;
 }
@@ -289,52 +289,51 @@
 {
     &lt;#statements#&gt;
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>5A500F6D-22F9-415A-BFD2-AC633A2B696F</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for trying to execute code that might generate an exception, and catching a resulting exception.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Objective-C Try / Catch Block</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-        <key>IDECodeSnippetRelativePriority</key>
-        <integer>1</integer>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>dealloc</string>
-        <key>IDECodeSnippetContents</key>
-        <string>- (void)dealloc
+		<key>IDECodeSnippetIdentifier</key>
+		<string>5A500F6D-22F9-415A-BFD2-AC633A2B696F</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for trying to execute code that might generate an exception, and catching a resulting exception.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Objective-C Try / Catch Block</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>CodeBlock</string>
+		</array>
+		<key>IDECodeSnippetRelativePriority</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>dealloc</string>
+		<key>IDECodeSnippetContents</key>
+		<string>- (void)dealloc
 {
     &lt;#deallocations#&gt;
-    [super dealloc];
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>3E8F2002-A18B-4E8C-9E89-78D5100FC20A</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for releasing memory that is not needed for an object once it is released.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Objective-C dealloc Method</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>ClassImplementation</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>initWithCoder</string>
-        <key>IDECodeSnippetContents</key>
-        <string>- (id)initWithCoder:(NSCoder *)coder
+		<key>IDECodeSnippetIdentifier</key>
+		<string>3E8F2002-A18B-4E8C-9E89-78D5100FC20A</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for releasing memory that is not needed for an object once it is released.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Objective-C dealloc Method</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>ClassImplementation</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>initWithCoder</string>
+		<key>IDECodeSnippetContents</key>
+		<string>- (id)initWithCoder:(NSCoder *)coder
 {
     self = [super initWithCoder:coder];
     if (self)
@@ -343,160 +342,160 @@
     }
     return self;
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>754F3DA9-C71D-4412-8C27-D415902FC03F</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for initializing a new object from data data encoded in coder.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Objective-C NSCoding initWithCoder Method</string>
-        <key>IDECodeSnippetPlatformFamily</key>
-        <string>macosx</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>ClassImplementation</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>typedefBlock</string>
-        <key>IDECodeSnippetContents</key>
-        <string>typedef &lt;#return type#&gt;(^&lt;#block name#&gt;)(&lt;#arguments#&gt;);</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>C1952C54-2451-4095-858E-17BA5721F630</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for defining a block as a type.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>C Block typedef</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>TopLevel</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>typedef</string>
-        <key>IDECodeSnippetContents</key>
-        <string>typedef &lt;#existing#&gt; &lt;#new#&gt;;</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>2A7CABF6-E809-4738-AC98-501974709132</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for defining a type.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>C typedef</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>TopLevel</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-    	<key>IDECodeSnippetCompletionPrefix</key>
-    	<string>dispatch_once</string>
-    	<key>IDECodeSnippetContents</key>
-    	<string>static dispatch_once_t onceToken;
+		<key>IDECodeSnippetIdentifier</key>
+		<string>754F3DA9-C71D-4412-8C27-D415902FC03F</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for initializing a new object from data data encoded in coder.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Objective-C NSCoding initWithCoder Method</string>
+		<key>IDECodeSnippetPlatformFamily</key>
+		<string>macosx</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>ClassImplementation</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>typedefBlock</string>
+		<key>IDECodeSnippetContents</key>
+		<string>typedef &lt;#return type#&gt;(^&lt;#block name#&gt;)(&lt;#arguments#&gt;);</string>
+		<key>IDECodeSnippetIdentifier</key>
+		<string>C1952C54-2451-4095-858E-17BA5721F630</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for defining a block as a type.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>C Block typedef</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>TopLevel</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>typedef</string>
+		<key>IDECodeSnippetContents</key>
+		<string>typedef &lt;#existing#&gt; &lt;#new#&gt;;</string>
+		<key>IDECodeSnippetIdentifier</key>
+		<string>2A7CABF6-E809-4738-AC98-501974709132</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for defining a type.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>C typedef</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>TopLevel</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>dispatch_once</string>
+		<key>IDECodeSnippetContents</key>
+		<string>static dispatch_once_t onceToken;
 dispatch_once(&amp;onceToken, ^{
     &lt;#code to be executed once#&gt;
 });</string>
-    	<key>IDECodeSnippetIdentifier</key>
-    	<string>05607F38-A2BC-4245-A30F-44F90DEBD073</string>
-    	<key>IDECodeSnippetLanguage</key>
-    	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for executing code once through the lifetime of the object, such as for a singleton.</string>
-    	<key>IDECodeSnippetTitle</key>
-    	<string>GCD: Dispatch Once</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-    	<key>IDECodeSnippetCompletionPrefix</key>
-    	<string>keyPathsForValuesAffecting</string>
-    	<key>IDECodeSnippetContents</key>
-    	<string>+ (NSSet *)keyPathsForValuesAffecting&lt;#Dependent Key#&gt;
+		<key>IDECodeSnippetIdentifier</key>
+		<string>05607F38-A2BC-4245-A30F-44F90DEBD073</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for executing code once through the lifetime of the object, such as for a singleton.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>GCD: Dispatch Once</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>keyPathsForValuesAffecting</string>
+		<key>IDECodeSnippetContents</key>
+		<string>+ (NSSet *)keyPathsForValuesAffecting&lt;#Dependent Key#&gt;
 {
-    return [NSSet setWithObjects:@"&lt;#key1#&gt;", nil];
+    return [NSSet setWithObjects:@&quot;&lt;#key1#&gt;&quot;, nil];
 }</string>
-    	<key>IDECodeSnippetIdentifier</key>
-    	<string>3A823634-A3B2-43D3-926A-CCBA25DBA340</string>
-    	<key>IDECodeSnippetLanguage</key>
-    	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for defining which keys, when modified, affect the value of the dependent key.</string>
-    	<key>IDECodeSnippetTitle</key>
-    	<string>Objective-C KVO: Values affecting key</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>ClassImplementation</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>inlineBlock</string>
-        <key>IDECodeSnippetContents</key>
-        <string>&lt;#Return Type#&gt;(^&lt;#Block Name#&gt;)(&lt;#Parameter Types#&gt;) = ^(&lt;#Parameters#&gt;) {
+		<key>IDECodeSnippetIdentifier</key>
+		<string>3A823634-A3B2-43D3-926A-CCBA25DBA340</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for defining which keys, when modified, affect the value of the dependent key.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Objective-C KVO: Values affecting key</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>ClassImplementation</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>inlineBlock</string>
+		<key>IDECodeSnippetContents</key>
+		<string>&lt;#Return Type#&gt;(^&lt;#Block Name#&gt;)(&lt;#Parameter Types#&gt;) = ^(&lt;#Parameters#&gt;) {
     &lt;#Code#&gt;
 };</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>83CBFBD3-CDC7-4637-8CCE-FEE243AF09AE</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for saving a block to a variable so we can pass it as an argument multiple times.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>C Inline Block as Variable</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-    	<key>IDECodeSnippetCompletionPrefix</key>
-    	<string>dispatch_after</string>
-    	<key>IDECodeSnippetContents</key>
-    	<string>double delayInSeconds = 2.0;
+		<key>IDECodeSnippetIdentifier</key>
+		<string>83CBFBD3-CDC7-4637-8CCE-FEE243AF09AE</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for saving a block to a variable so we can pass it as an argument multiple times.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>C Inline Block as Variable</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>dispatch_after</string>
+		<key>IDECodeSnippetContents</key>
+		<string>double delayInSeconds = 2.0;
 dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
 dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
     &lt;#code to be executed on the main queue after delay#&gt;
 });</string>
-    	<key>IDECodeSnippetIdentifier</key>
-    	<string>7A8FBEEF-B793-4F61-8368-28ED63CD8956</string>
-    	<key>IDECodeSnippetLanguage</key>
-    	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for executing a block after a set amount of time.</string>
-    	<key>IDECodeSnippetTitle</key>
-    	<string>GCD: Dispatch After</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-    	<key>IDECodeSnippetCompletionPrefix</key>
-    	<string>observeValueForKeyPath</string>
-    	<key>IDECodeSnippetContents</key>
-    	<string>- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
+		<key>IDECodeSnippetIdentifier</key>
+		<string>7A8FBEEF-B793-4F61-8368-28ED63CD8956</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for executing a block after a set amount of time.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>GCD: Dispatch After</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>observeValueForKeyPath</string>
+		<key>IDECodeSnippetContents</key>
+		<string>- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
     if (context == &lt;#context#&gt;)
     {
@@ -507,30 +506,30 @@ dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
         [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
     }
 }</string>
-    	<key>IDECodeSnippetIdentifier</key>
-    	<string>99CFD61A-3E23-4F0B-8CF3-8716286ABA49</string>
-    	<key>IDECodeSnippetLanguage</key>
-    	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for customizing behaviour in the implementation for when something starts to be observed.</string>
-    	<key>IDECodeSnippetTitle</key>
-    	<string>Objective-C KVO: Observe Value For Keypath</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>ClassImplementation</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-    	<string></string>
-        <key>IDECodeSnippetContents</key>
-        <string>NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
-NSEntityDescription *entity = [NSEntityDescription entityForName:@"&lt;#Entity name#&gt;" inManagedObjectContext:&lt;#context#&gt;];
+		<key>IDECodeSnippetIdentifier</key>
+		<string>99CFD61A-3E23-4F0B-8CF3-8716286ABA49</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for customizing behaviour in the implementation for when something starts to be observed.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Objective-C KVO: Observe Value For Keypath</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>ClassImplementation</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string></string>
+		<key>IDECodeSnippetContents</key>
+		<string>NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+NSEntityDescription *entity = [NSEntityDescription entityForName:@&quot;&lt;#Entity name#&gt;&quot; inManagedObjectContext:&lt;#context#&gt;];
 [fetchRequest setEntity:entity];
 
-NSPredicate *predicate = [NSPredicate predicateWithFormat:@"&lt;#Predicate string#&gt;", &lt;#Predicate arguments#&gt;];
+NSPredicate *predicate = [NSPredicate predicateWithFormat:@&quot;&lt;#Predicate string#&gt;&quot;, &lt;#Predicate arguments#&gt;];
 [fetchRequest setPredicate:predicate];
 
 NSError *error = nil;
@@ -541,27 +540,27 @@ if (fetchedObjects == nil)
 }
 
 [fetchRequest release];</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>06B72D2F-B181-4547-8208-A4FE9275AAD6</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for fetching managed objects that meet given criteria.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Core Data Fetch with a Predicate</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-    	<string></string>
-        <key>IDECodeSnippetContents</key>
-        <string>NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
-NSEntityDescription *entity = [NSEntityDescription entityForName:@"&lt;#Entity name#&gt;" inManagedObjectContext:&lt;#context#&gt;];
+		<key>IDECodeSnippetIdentifier</key>
+		<string>06B72D2F-B181-4547-8208-A4FE9275AAD6</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for fetching managed objects that meet given criteria.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Core Data Fetch with a Predicate</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string></string>
+		<key>IDECodeSnippetContents</key>
+		<string>NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+NSEntityDescription *entity = [NSEntityDescription entityForName:@&quot;&lt;#Entity name#&gt;&quot; inManagedObjectContext:&lt;#context#&gt;];
 [fetchRequest setEntity:entity];
 
 NSError *error = nil;
@@ -572,177 +571,172 @@ if (fetchedObjects == nil)
 }
 
 [fetchRequest release];</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>16D98350-143B-4CC9-9EA4-57525DAD8D74</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for fetching an entity from a managed context.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Core Data Basic Fetch</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-    </dict>
-        
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string></string>
-        <key>IDECodeSnippetContents</key>
-        <string>- (BOOL)validate&lt;#Capitalized property name#&gt;:(id *)valueRef error:(NSError **)outError
+		<key>IDECodeSnippetIdentifier</key>
+		<string>16D98350-143B-4CC9-9EA4-57525DAD8D74</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for fetching an entity from a managed context.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Core Data Basic Fetch</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string></string>
+		<key>IDECodeSnippetContents</key>
+		<string>- (BOOL)validate&lt;#Capitalized property name#&gt;:(id *)valueRef error:(NSError **)outError
 {
     BOOL validationResult = YES;
     &lt;#Validation code#&gt;
     return validationResult;
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>B73B46A2-E9E4-4D78-9365-B537727CE602</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for validating a property.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Core Data Property Validation</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>ClassImplementation</string>
-        </array>
-    </dict>
- 
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string></string>
-        <key>IDECodeSnippetContents</key>
-        <string>- (&lt;#Property type#&gt; *)&lt;#Property name#&gt;
+		<key>IDECodeSnippetIdentifier</key>
+		<string>B73B46A2-E9E4-4D78-9365-B537727CE602</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for validating a property.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Core Data Property Validation</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>ClassImplementation</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string></string>
+		<key>IDECodeSnippetContents</key>
+		<string>- (&lt;#Property type#&gt; *)&lt;#Property name#&gt;
 {
-    [self willAccessValueForKey:@"&lt;#Property name#&gt;"];
-    &lt;#Property type#&gt; *tmpValue = [self primitiveValueForKey:@"&lt;#Property name#&gt;"];
-    [self didAccessValueForKey:@"&lt;#Property name#&gt;"];
+    [self willAccessValueForKey:@&quot;&lt;#Property name#&gt;&quot;];
+    &lt;#Property type#&gt; *tmpValue = [self primitiveValueForKey:@&quot;&lt;#Property name#&gt;&quot;];
+    [self didAccessValueForKey:@&quot;&lt;#Property name#&gt;&quot;];
     return tmpValue;
 }
             
 - (void)set&lt;#Capitalized property name#&gt;:(&lt;#Property type#&gt; *)value
 {
-    [self willChangeValueForKey:@"&lt;#Property name#&gt;"];
-    [self setPrimitiveValue:value forKey:@"&lt;#Property name#&gt;"];
-    [self didChangeValueForKey:@"&lt;#Property name#&gt;"];
+    [self willChangeValueForKey:@&quot;&lt;#Property name#&gt;&quot;];
+    [self setPrimitiveValue:value forKey:@&quot;&lt;#Property name#&gt;&quot;];
+    [self didChangeValueForKey:@&quot;&lt;#Property name#&gt;&quot;];
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>5DA67A34-6770-496E-8043-67FBA237CA5D</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for overriding the setter and getter of a property.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Core Data Property Accessors</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>ClassImplementation</string>
-        </array>
-    </dict>
-    
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string></string>
-        <key>IDECodeSnippetContents</key>
-        <string>- (&lt;#Property type#&gt;)&lt;#Property name#&gt;
+		<key>IDECodeSnippetIdentifier</key>
+		<string>5DA67A34-6770-496E-8043-67FBA237CA5D</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for overriding the setter and getter of a property.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Core Data Property Accessors</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>ClassImplementation</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string></string>
+		<key>IDECodeSnippetContents</key>
+		<string>- (&lt;#Property type#&gt;)&lt;#Property name#&gt;
 {
-    [self willAccessValueForKey:@"&lt;#Property name#&gt;"];
+    [self willAccessValueForKey:@&quot;&lt;#Property name#&gt;&quot;];
     &lt;#Property type#&gt; *tmpValue = &lt;#Property name#&gt;;
-    [self didAccessValueForKey:@"&lt;#Property name#&gt;"];
+    [self didAccessValueForKey:@&quot;&lt;#Property name#&gt;&quot;];
     return tmpValue;
 }
 
 - (void)set&lt;#Capitalized property name#&gt;:(&lt;#Property type#&gt;)value
 {
-    [self willChangeValueForKey:@"&lt;#Property name#&gt;"];
+    [self willChangeValueForKey:@&quot;&lt;#Property name#&gt;&quot;];
     &lt;#Property name#&gt; = value;
-    [self didChangeValueForKey:@"&lt;#Property name#&gt;"];
+    [self didChangeValueForKey:@&quot;&lt;#Property name#&gt;&quot;];
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>7BB916DE-2D8D-427B-BED7-2DA2D1908614</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for overriding the setter and getter of a scalar property.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Core Data Scalar Property Accessors</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>ClassImplementation</string>
-        </array>
-    </dict>
-        
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string></string>
-        <key>IDECodeSnippetContents</key>
-        <string>- (void)add&lt;#Capitalized relationship name#&gt;Object:(&lt;#Relationship destination class#&gt; *)value
+		<key>IDECodeSnippetIdentifier</key>
+		<string>7BB916DE-2D8D-427B-BED7-2DA2D1908614</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for overriding the setter and getter of a scalar property.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Core Data Scalar Property Accessors</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>ClassImplementation</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string></string>
+		<key>IDECodeSnippetContents</key>
+		<string>- (void)add&lt;#Capitalized relationship name#&gt;Object:(&lt;#Relationship destination class#&gt; *)value
 {    
     NSSet *changedObjects = [[NSSet alloc] initWithObjects:&amp;value count:1];
-    [self willChangeValueForKey:@"&lt;#Relationship name#&gt;" withSetMutation:NSKeyValueUnionSetMutation usingObjects:changedObjects];
-    [[self primitiveValueForKey:@"&lt;#Relationship name#&gt;"] addObject:value];
-    [self didChangeValueForKey:@"&lt;#Relationship name#&gt;" withSetMutation:NSKeyValueUnionSetMutation usingObjects:changedObjects];
+    [self willChangeValueForKey:@&quot;&lt;#Relationship name#&gt;&quot; withSetMutation:NSKeyValueUnionSetMutation usingObjects:changedObjects];
+    [[self primitiveValueForKey:@&quot;&lt;#Relationship name#&gt;&quot;] addObject:value];
+    [self didChangeValueForKey:@&quot;&lt;#Relationship name#&gt;&quot; withSetMutation:NSKeyValueUnionSetMutation usingObjects:changedObjects];
     [changedObjects release];
 }
 
 - (void)remove&lt;#Capitalized relationship name#&gt;Object:(&lt;#Relationship destination class#&gt; *)value
 {
     NSSet *changedObjects = [[NSSet alloc] initWithObjects:&amp;value count:1];
-    [self willChangeValueForKey:@"&lt;#Relationship name#&gt;" withSetMutation:NSKeyValueMinusSetMutation usingObjects:changedObjects];
-    [[self primitiveValueForKey:@"&lt;#Relationship name#&gt;"] removeObject:value];
-    [self didChangeValueForKey:@"&lt;#Relationship name#&gt;" withSetMutation:NSKeyValueMinusSetMutation usingObjects:changedObjects];
+    [self willChangeValueForKey:@&quot;&lt;#Relationship name#&gt;&quot; withSetMutation:NSKeyValueMinusSetMutation usingObjects:changedObjects];
+    [[self primitiveValueForKey:@&quot;&lt;#Relationship name#&gt;&quot;] removeObject:value];
+    [self didChangeValueForKey:@&quot;&lt;#Relationship name#&gt;&quot; withSetMutation:NSKeyValueMinusSetMutation usingObjects:changedObjects];
     [changedObjects release];
 }
 
 - (void)add&lt;#Capitalized relationship name#&gt;:(NSSet *)value
 {    
-    [self willChangeValueForKey:@"&lt;#Relationship name#&gt;" withSetMutation:NSKeyValueUnionSetMutation usingObjects:value];
-    [[self primitiveValueForKey:@"&lt;#Relationship name#&gt;"] unionSet:value];
-    [self didChangeValueForKey:@"&lt;#Relationship name#&gt;" withSetMutation:NSKeyValueUnionSetMutation usingObjects:value];
+    [self willChangeValueForKey:@&quot;&lt;#Relationship name#&gt;&quot; withSetMutation:NSKeyValueUnionSetMutation usingObjects:value];
+    [[self primitiveValueForKey:@&quot;&lt;#Relationship name#&gt;&quot;] unionSet:value];
+    [self didChangeValueForKey:@&quot;&lt;#Relationship name#&gt;&quot; withSetMutation:NSKeyValueUnionSetMutation usingObjects:value];
 }
 
 - (void)remove&lt;#Capitalized relationship name#&gt;:(NSSet *)value
 {
-    [self willChangeValueForKey:@"&lt;#Relationship name#&gt;" withSetMutation:NSKeyValueMinusSetMutation usingObjects:value];
-    [[self primitiveValueForKey:@"&lt;#Relationship name#&gt;"] minusSet:value];
-    [self didChangeValueForKey:@"&lt;#Relationship name#&gt;" withSetMutation:NSKeyValueMinusSetMutation usingObjects:value];
+    [self willChangeValueForKey:@&quot;&lt;#Relationship name#&gt;&quot; withSetMutation:NSKeyValueMinusSetMutation usingObjects:value];
+    [[self primitiveValueForKey:@&quot;&lt;#Relationship name#&gt;&quot;] minusSet:value];
+    [self didChangeValueForKey:@&quot;&lt;#Relationship name#&gt;&quot; withSetMutation:NSKeyValueMinusSetMutation usingObjects:value];
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>C1E91503-E91F-4EEA-A032-D98D80CDD00A</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for overriding the add and remove methods for a to-many relationship.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Core Data To-Many Relationship Accessors</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>ClassImplementation</string>
-        </array>
-    </dict>
-        
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-    	<string></string>
-        <key>IDECodeSnippetContents</key>
-        <string>NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
-NSEntityDescription *entity = [NSEntityDescription entityForName:@"&lt;#Entity name#&gt;"
+		<key>IDECodeSnippetIdentifier</key>
+		<string>C1E91503-E91F-4EEA-A032-D98D80CDD00A</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for overriding the add and remove methods for a to-many relationship.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Core Data To-Many Relationship Accessors</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>ClassImplementation</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string></string>
+		<key>IDECodeSnippetContents</key>
+		<string>NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+NSEntityDescription *entity = [NSEntityDescription entityForName:@&quot;&lt;#Entity name#&gt;&quot;
 inManagedObjectContext:&lt;#context#&gt;];
 [fetchRequest setEntity:entity];
 
-NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"&lt;#Sort key#&gt;"
+NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@&quot;&lt;#Sort key#&gt;&quot;
 ascending:YES];
 NSArray *sortDescriptors = [[NSArray alloc] initWithObjects:sortDescriptor, nil];
 [fetchRequest setSortDescriptors:sortDescriptors];
@@ -757,183 +751,174 @@ if (fetchedObjects == nil)
 [fetchRequest release];
 [sortDescriptor release];
 [sortDescriptors release];</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>30A07915-4F35-485B-902C-F416C822B759</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>This will fetch managed objects in a specific order.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Core Data Fetch with Sorting</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string></string>
-        <key>IDECodeSnippetContents</key>
-        <string>NSUInteger index = [&lt;#index set#&gt; firstIndex];
+		<key>IDECodeSnippetIdentifier</key>
+		<string>30A07915-4F35-485B-902C-F416C822B759</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>This will fetch managed objects in a specific order.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Core Data Fetch with Sorting</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string></string>
+		<key>IDECodeSnippetContents</key>
+		<string>NSUInteger index = [&lt;#index set#&gt; firstIndex];
 
 while (index != NSNotFound)
 {
     // Do something with index
     index = [&lt;#index set#&gt;  indexGreaterThanIndex:index];
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>9AB0DA7B-D4A4-4B90-8288-6F882D1B1675</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>This takes an index set and enumerates through it.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Enumerate Index Set</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-    	<string></string>
-        <key>IDECodeSnippetContents</key>
-        <string>NSUInteger index = [&lt;#index set#&gt; lastIndex];
+		<key>IDECodeSnippetIdentifier</key>
+		<string>9AB0DA7B-D4A4-4B90-8288-6F882D1B1675</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>This takes an index set and enumerates through it.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Enumerate Index Set</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string></string>
+		<key>IDECodeSnippetContents</key>
+		<string>NSUInteger index = [&lt;#index set#&gt; lastIndex];
 
 while (index != NSNotFound)
 {
     // Do something with index.
     index = [&lt;#index set#&gt; indexLessThanIndex:index];
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>6F7768D1-F92C-42EB-986B-AF5DB06CD076</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>This takes an index set and enumerates through it in reverse.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Enumerate Index Set In Reverse</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-    </dict>
-
-    <!-- C completions -->
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>enumdef</string>
-        <key>IDECodeSnippetContents</key>
-        <string>enum &lt;#enumeration name#&gt;
+		<key>IDECodeSnippetIdentifier</key>
+		<string>6F7768D1-F92C-42EB-986B-AF5DB06CD076</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>This takes an index set and enumerates through it in reverse.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Enumerate Index Set In Reverse</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>enumdef</string>
+		<key>IDECodeSnippetContents</key>
+		<string>enum &lt;#enumeration name#&gt;
 {
   &lt;#enumerator1#&gt; = &lt;#value1#&gt;,
   &lt;#enumerator2#&gt; = &lt;#value2#&gt;
 };</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>5D04838B-FD25-4CA1-BCF7-BA2F6569F1FE</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for describing a new enumeration type whose value can be one of several named constants.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Enumeration Declaration</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>TopLevel</string>
-            <string>CodeBlock</string>
-            <!-- TODO: C++ classes -->
-        </array>
-    </dict>
-
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>structdef</string>
-        <key>IDECodeSnippetContents</key>
-        <string>struct &lt;#struct name#&gt;
+		<key>IDECodeSnippetIdentifier</key>
+		<string>5D04838B-FD25-4CA1-BCF7-BA2F6569F1FE</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for describing a new enumeration type whose value can be one of several named constants.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Enumeration Declaration</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>TopLevel</string>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>structdef</string>
+		<key>IDECodeSnippetContents</key>
+		<string>struct &lt;#struct name#&gt;
 {
   &lt;#instance variables#&gt;
 };</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>41F64F7F-EFC8-4CDE-B129-EBC903B10F3F</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for describing a new structure type containing instance variables.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Struct Declaration</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>TopLevel</string>
-            <string>CodeBlock</string>
-            <!-- TODO: C++ classes -->
-        </array>
-    </dict>
-
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>uniondef</string>
-        <key>IDECodeSnippetContents</key>
-        <string>union &lt;#union name#&gt;
+		<key>IDECodeSnippetIdentifier</key>
+		<string>41F64F7F-EFC8-4CDE-B129-EBC903B10F3F</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for describing a new structure type containing instance variables.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Struct Declaration</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>TopLevel</string>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>uniondef</string>
+		<key>IDECodeSnippetContents</key>
+		<string>union &lt;#union name#&gt;
 {
   &lt;#instance variables#&gt;
 };</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>E1953353-0E0A-4807-80B8-AFAD5F6B0A21</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for describing a new union type containing instance variables, only one of which is active at any given time.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Union Declaration</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>TopLevel</string>
-            <string>CodeBlock</string>
-            <!-- TODO: C++ classes -->
-        </array>
-    </dict>
-
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>if</string>
-        <key>IDECodeSnippetContents</key>
-        <string>if (&lt;#condition#&gt;)
+		<key>IDECodeSnippetIdentifier</key>
+		<string>E1953353-0E0A-4807-80B8-AFAD5F6B0A21</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for describing a new union type containing instance variables, only one of which is active at any given time.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Union Declaration</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>TopLevel</string>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>if</string>
+		<key>IDECodeSnippetContents</key>
+		<string>if (&lt;#condition#&gt;)
 {
   &lt;#statements#&gt;
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>D70E6D11-0297-4BAB-88AA-86D5D5CBBC5D</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for executing code only when a certain condition is true.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>If Statement</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-    </dict>
-
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>ifelse</string>
-        <key>IDECodeSnippetContents</key>
-        <string>if (&lt;#condition#&gt;)
+		<key>IDECodeSnippetIdentifier</key>
+		<string>D70E6D11-0297-4BAB-88AA-86D5D5CBBC5D</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for executing code only when a certain condition is true.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>If Statement</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>ifelse</string>
+		<key>IDECodeSnippetContents</key>
+		<string>if (&lt;#condition#&gt;)
 {
   &lt;#statements-if-true#&gt;
 }
@@ -941,27 +926,26 @@ else
 {
   &lt;#statements-if-false#&gt;
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>324A989C-B8B7-4974-8F12-D4B42F2059BA</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for executing code only when a certain condition is true, or different code if the certain condition is true.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>If-Else Statement</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-    </dict>
-
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>switch</string>
-        <key>IDECodeSnippetContents</key>
-        <string>switch (&lt;#expression#&gt;)
+		<key>IDECodeSnippetIdentifier</key>
+		<string>324A989C-B8B7-4974-8F12-D4B42F2059BA</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for executing code only when a certain condition is true, or different code if the certain condition is true.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>If-Else Statement</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>switch</string>
+		<key>IDECodeSnippetContents</key>
+		<string>switch (&lt;#expression#&gt;)
 {
   case &lt;#constant#&gt;:
   {
@@ -969,180 +953,197 @@ else
     break;
   }
   default:
+  {
     break;
+  }
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>DA95C97A-3F49-4A24-AFF7-8ACE73B0C6FA</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for executing different sections of code when an expression has one of several constant values.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Switch Statement</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-    </dict>
-
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>while</string>
-        <key>IDECodeSnippetContents</key>
-        <string>while (&lt;#condition#&gt;)
+		<key>IDECodeSnippetIdentifier</key>
+		<string>DA95C97A-3F49-4A24-AFF7-8ACE73B0C6FA</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for executing different sections of code when an expression has one of several constant values.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Switch Statement</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>while</string>
+		<key>IDECodeSnippetContents</key>
+		<string>while (&lt;#condition#&gt;)
 {
   &lt;#statements#&gt;
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>87234884-0BA0-49C3-8405-4C6E6BB6251D</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for executing code while a condition is true.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>While Statement</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-    </dict>
-
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>dowhile</string>
-        <key>IDECodeSnippetContents</key>
-        <string>do
+		<key>IDECodeSnippetIdentifier</key>
+		<string>87234884-0BA0-49C3-8405-4C6E6BB6251D</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for executing code while a condition is true.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>While Statement</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>dowhile</string>
+		<key>IDECodeSnippetContents</key>
+		<string>do
 {
   &lt;#statements#&gt;
 } while (&lt;#condition#&gt;);</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>1FA9842C-8454-42F7-9119-5818388EDB58</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for executing code while a condition is true.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Do-While Statement</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-    </dict>
-
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>for</string>
-        <key>IDECodeSnippetContents</key>
-        <string>for (&lt;#initialization#&gt;; &lt;#condition#&gt;; &lt;#increment#&gt;)
+		<key>IDECodeSnippetIdentifier</key>
+		<string>1FA9842C-8454-42F7-9119-5818388EDB58</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for executing code while a condition is true.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Do-While Statement</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>for</string>
+		<key>IDECodeSnippetContents</key>
+		<string>for (&lt;#initialization#&gt;; &lt;#condition#&gt;; &lt;#increment#&gt;)
 {
   &lt;#statements#&gt;
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>167AF381-F451-4535-900D-D2B65C99DB1F</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for executing code for each value in a sequence of values.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>For Statement</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-    </dict>
-
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>@autoreleasepool</string>
-        <key>IDECodeSnippetContents</key>
-        <string>@autoreleasepool
+		<key>IDECodeSnippetIdentifier</key>
+		<string>167AF381-F451-4535-900D-D2B65C99DB1F</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for executing code for each value in a sequence of values.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>For Statement</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>@autoreleasepool</string>
+		<key>IDECodeSnippetContents</key>
+		<string>@autoreleasepool
 {
     &lt;#statements#&gt;
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>FF337398-CA18-4163-86E8-30E54608005D</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.Objective-C</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for executing a sequence of statements and then destroying any temporary objects created by those statements</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>Objective-C Autoreleasing Block</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-        <key>IDECodeSnippetRelativePriority</key>
-        <integer>1</integer>
-    </dict>
-
-    <!-- C++ completions -->
+		<key>IDECodeSnippetIdentifier</key>
+		<string>FF337398-CA18-4163-86E8-30E54608005D</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for executing a sequence of statements and then destroying any temporary objects created by those statements</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Objective-C Autoreleasing Block</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>CodeBlock</string>
+		</array>
+		<key>IDECodeSnippetRelativePriority</key>
+		<integer>1</integer>
+	</dict>
     <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>classdef</string>
-        <key>IDECodeSnippetContents</key>
-        <string>class &lt;#class name#&gt;
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>test</string>
+		<key>IDECodeSnippetContents</key>
+		<string>- (void) test&lt;#Name#&gt;
+{
+    &lt;#statements#&gt;
+}</string>
+		<key>IDECodeSnippetIdentifier</key>
+		<string>D0EFC526-3F2E-45F9-A000-765CB77E1191</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Adds a test case method to a test class.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Test Method</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>ClassImplementation</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>classdef</string>
+		<key>IDECodeSnippetContents</key>
+		<string>class &lt;#class name#&gt;
 {
   &lt;#instance variables#&gt;
 
 public:
   &lt;#member functions#&gt;
 };</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>1EF0BE33-73EF-49AD-9628-B6EFD271EF6B</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for describing a new class type containing instance variables, member functions, etc..</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>C++ Class Declaration</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>TopLevel</string>
-            <string>CodeBlock</string>
-            <!-- TODO: C++ classes -->
-        </array>
-    </dict>
-
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>namespace</string>
-        <key>IDECodeSnippetContents</key>
-        <string>namespace &lt;#namespace name#&gt;
+		<key>IDECodeSnippetIdentifier</key>
+		<string>1EF0BE33-73EF-49AD-9628-B6EFD271EF6B</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for describing a new class type containing instance variables, member functions, etc..</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>C++ Class Declaration</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>TopLevel</string>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>namespace</string>
+		<key>IDECodeSnippetContents</key>
+		<string>namespace &lt;#namespace name#&gt;
 {
   &lt;#declarations#&gt;
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>B40D3876-5C49-44AA-9072-FFD01001A815</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used to define a new namespace or extend an existing namespace.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>C++ Namespace Definition</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>TopLevel</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>templateclass</string>
-        <key>IDECodeSnippetContents</key>
-        <string>template &lt;&lt;#template parameters#&gt;&gt;
+		<key>IDECodeSnippetIdentifier</key>
+		<string>B40D3876-5C49-44AA-9072-FFD01001A815</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used to define a new namespace or extend an existing namespace.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>C++ Namespace Definition</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>TopLevel</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>templateclass</string>
+		<key>IDECodeSnippetContents</key>
+		<string>template &lt;&lt;#template parameters#&gt;&gt;
 class &lt;#class name#&gt;
 {
   &lt;#instance variables#&gt;
@@ -1150,73 +1151,71 @@ class &lt;#class name#&gt;
 public:
   &lt;#member functions#&gt;
 };</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>8F270BF8-4707-48FC-B9D8-45E25E692DE1</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used to define a new class template.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>C++ Class Template</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-          <string>TopLevel</string>
-          <!-- TODO: C++ classes -->
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>templatefunction</string>
-        <key>IDECodeSnippetContents</key>
-        <string>template &lt;&lt;#template parameters#&gt;&gt;
+		<key>IDECodeSnippetIdentifier</key>
+		<string>8F270BF8-4707-48FC-B9D8-45E25E692DE1</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used to define a new class template.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>C++ Class Template</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>TopLevel</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>templatefunction</string>
+		<key>IDECodeSnippetContents</key>
+		<string>template &lt;&lt;#template parameters#&gt;&gt;
 &lt;#return type#&gt; &lt;#function name#&gt;(&lt;#function parameters#&gt;)
 {
   &lt;#statements#&gt;
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>FF27D094-644B-4BD2-80D8-5A22E02F3455</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used to define a new function template.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>C++ Function Template</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>TopLevel</string>
-            <!-- TODO: C++ classes -->
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>using namespace</string>
-        <key>IDECodeSnippetContents</key>
-        <string>using namespace &lt;#namespace name#&gt;</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>5BEE2080-03BF-4B7A-989F-7507C8364503</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used to bring the members of a namespace into scope.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>C++ Using Directive</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>TopLevel</string>
-            <string>CodeBlock</string>
-        </array>
-    </dict>
-    <dict>
-        <key>IDECodeSnippetVersion</key>
-        <integer>1</integer>
-        <key>IDECodeSnippetCompletionPrefix</key>
-        <string>try</string>
-        <key>IDECodeSnippetContents</key>
-        <string>try
+		<key>IDECodeSnippetIdentifier</key>
+		<string>FF27D094-644B-4BD2-80D8-5A22E02F3455</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used to define a new function template.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>C++ Function Template</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>TopLevel</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>using namespace</string>
+		<key>IDECodeSnippetContents</key>
+		<string>using namespace &lt;#namespace name#&gt;</string>
+		<key>IDECodeSnippetIdentifier</key>
+		<string>5BEE2080-03BF-4B7A-989F-7507C8364503</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used to bring the members of a namespace into scope.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>C++ Using Directive</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>TopLevel</string>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>IDECodeSnippetVersion</key>
+		<integer>1</integer>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>try</string>
+		<key>IDECodeSnippetContents</key>
+		<string>try
 {
   &lt;#statements#&gt;
 }
@@ -1224,19 +1223,18 @@ catch (&lt;#catch parameter#&gt;)
 {
   &lt;#statements#&gt;
 }</string>
-        <key>IDECodeSnippetIdentifier</key>
-        <string>6839659E-707F-4B33-BA03-5F6C1AEACDCD</string>
-        <key>IDECodeSnippetLanguage</key>
-        <string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
-        <key>IDECodeSnippetSummary</key>
-        <string>Used for trying to execute code that might generate an exception, and catching a resulting exception.</string>
-        <key>IDECodeSnippetTitle</key>
-        <string>C++ Try / Catch Block</string>
-        <key>IDECodeSnippetCompletionScopes</key>
-        <array>
-            <string>CodeBlock</string>
-        </array>
-    </dict>
+		<key>IDECodeSnippetIdentifier</key>
+		<string>6839659E-707F-4B33-BA03-5F6C1AEACDCD</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Used for trying to execute code that might generate an exception, and catching a resulting exception.</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>C++ Try / Catch Block</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>CodeBlock</string>
+		</array>
+	</dict>
 </array>
 </plist>
-
