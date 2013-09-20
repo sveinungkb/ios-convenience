@@ -1,4 +1,4 @@
-After some poking around in Xcode 4.2's files, I finally found a way to edit all the if, switch, class, methods etc. snippets to have the opening curly brace on its own line. This is our convention, and I bet we're not alone. Adding a manual new line for every `if` statement is waste of good brain power, so why not let Xcode do it right in the first place?
+After some poking around in Xcode's package contents, I found a way to edit all the if, switch, class, methods etc. snippets to have the opening curly brace on its own line. This is our convention, and I bet we're not alone. Adding a manual new line for every `if` statement is waste of good brain power, so why not let Xcode do it right in the first place?
 
 If your convention is something else, keep using it. If you're cool, and want your if statements like this:
 
